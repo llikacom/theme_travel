@@ -1,0 +1,23 @@
+name = Nombre de la plantilla
+description = Theme desarrollado en LLika Inversiones E.I.R.L.
+core = 7.x
+version = 7.1
+
+screenshot = screenshot.png
+engine = phptemplate
+
+regions[top] = Top
+regions[head] = Head
+regions[slider] = Slider
+regions[content] = Content
+regions[front] = Front
+regions[feature] = Feacture
+regions[footer] = Footer
+
+;regions[sidebar_left] = Left sidebar
+;regions[sidebar_right] = Right sidebar
+
+stylesheets[all][] = css/general.css
+stylesheets[all][] = css/custom.css
+
+scripts[] = custom.js
