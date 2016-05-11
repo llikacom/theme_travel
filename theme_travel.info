@@ -17,7 +17,11 @@ regions[footer] = Footer
 ;regions[sidebar_left] = Left sidebar
 ;regions[sidebar_right] = Right sidebar
 
+stylesheets[all][] = css/bootstrap.min.css
 stylesheets[all][] = css/general.css
 stylesheets[all][] = css/custom.css
 
-scripts[] = custom.js
+
+scripts[] = js/bootstrap.min.js
+
+features[] = main_menu
