@@ -25,3 +25,5 @@ stylesheets[all][] = css/custom.css
 scripts[] = js/bootstrap.min.js
 
 features[] = main_menu
+features[] = logo
+features[] = favicon
