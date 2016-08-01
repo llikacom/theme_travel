@@ -21,6 +21,13 @@ stylesheets[all][] = css/bootstrap.min.css
 stylesheets[all][] = css/general.css
 stylesheets[all][] = css/custom.css
 
+exclude[css][] = 'misc/vertical-tabs.css'
+exclude[css][] = 'modules/aggregator/aggregator.css'
+exclude[css][] = 'modules/system/system.maintenance.css'
+exclude[css][] = 'modules/system/system.menus.css'
+exclude[css][] = 'modules/system/system.messages.css'
+exclude[css][] = 'modules/system/system.theme.css'
+; exclude[css][] = 'modules/block/block.css'
 
 scripts[] = js/bootstrap.min.js
 
