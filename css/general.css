@@ -1,0 +1,21 @@
+/* Gallery field  */
+.field-name-field-gallery .field-item img {
+    width: 100%;
+    height: auto;
+    transition: all 0.3s ease-out;
+}
+.field-name-field-gallery .field-item:hover img {
+    transform: scale(1.2,1.2) rotate(-10deg);
+}
+.field-name-field-gallery .field-item {
+    width: calc((100% - 60px) / 3);
+    margin-right: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.24),0 1px 2px rgba(0,0,0,0.48);
+    overflow: hidden;
+}
+.field-name-field-gallery .field-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
