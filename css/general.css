@@ -39,6 +39,10 @@
     margin-bottom: 15px;
     min-height: 200px;
 }
+.blog-teaser:hover {
+    -webkit-box-shadow: 0 5px 10px rgba(0,0,0,0.35);
+    box-shadow: 0 5px 10px rgba(0,0,0,0.33);
+}
 .blog-teaser h2 {}
 .blog-teaser .field-name-field-image{}
 .blog-teaser .field-name-body{}
