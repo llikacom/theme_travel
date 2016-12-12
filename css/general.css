@@ -1,3 +1,8 @@
+.flexslider {
+    border: 0;
+    margin: 0;
+    background: transparent;
+}
 /* Gallery field  */
 .field-name-field-gallery .field-item img {
     width: 100%;
@@ -57,3 +62,26 @@
 .blog-teaser .field-name-field-image{}
 .blog-teaser .field-name-body{}
 .blog-teaser .btn-more {}
+/*
+* Slider
+*/
+.slider-content {
+    position: absolute;
+    bottom: 70px;
+    color: white;
+    text-shadow: 5px 2px 5px rgb(0, 0, 0);
+    width: 100%;
+}
+.slider-content h3 {
+    font-size: 40px;
+    font-weight: bold;
+}
+.slider-content .field-name-body{}
+.slider-content .field-name-field-link a {
+    background-color: #da7e32;
+    color: white;
+    padding: 15px 25px;
+    line-height: 36px;
+    border-radius: 10px;
+    text-transform: uppercase;
+}
