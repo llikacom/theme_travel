@@ -31,3 +31,15 @@
     box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
     color: white;
 }
+/* BLOGS */
+.blog-teaser {
+    width: 100%;
+    background: #eeeeee;
+    padding: 20px;
+    margin-bottom: 15px;
+    min-height: 200px;
+}
+.blog-teaser h2 {}
+.blog-teaser .field-name-field-image{}
+.blog-teaser .field-name-body{}
+.blog-teaser .btn-more {}
