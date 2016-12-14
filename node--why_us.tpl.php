@@ -7,7 +7,7 @@
   <div class="col-sm-7 col-md-8">
     <div class="field-title"><h3><?php print $title; ?></h3></div>
     <?php print render($content['body']); ?>
-    <?php print render($content['link']); ?>
+    <p class="text-right"><a href="<?php print $node_url; ?>" title="<?php print $title; ?>" class="btn btn-more"><?php print t("Read more") ; ?></a></p>
   </div>
 </div>
 <?php endif; ?>
