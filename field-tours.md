@@ -1,7 +1,7 @@
 # Tipo de contenido: Tours
 Crear y publicar tours
 ### Duration
-  tipo:List (text)
+tipo:List (text)
   : 0.5|1/2 Day
   : 1|Full Day
   : 2|2 Days / 1 Night
