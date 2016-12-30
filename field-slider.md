@@ -5,3 +5,6 @@ Crear y publicar Imagenes para el slider
 
 ### Image
   Tipo: Image 
+
+### LInk
+  Tipo: Link 
