@@ -18,8 +18,10 @@ tipo:List (text)
   - 13|13 Days / 12 Night
   - 14|14 Days / 13 Night
   - 15|15 Days / 14 Night
+
 ### Cost(From)
   Tipo:Decimal
+
 ### Grading
   Tipo:List (integer)
   - 1|1
@@ -27,6 +29,7 @@ tipo:List (text)
   - 3|3
   - 4|4
   - 5|5
+
 ### Slider
   Tipo: Image - Multiple
 ### Itinerario
