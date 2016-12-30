@@ -1,4 +1,6 @@
-- Duration 
+# Tipo de contenido: Tours
+Crear y publicar tours
+### Duration
   tipo:List (text)
   0.5|1/2 Day
   1|Full Day
@@ -16,32 +18,32 @@
   13|13 Days / 12 Night
   14|14 Days / 13 Night
   15|15 Days / 14 Night
-- Cost(From)
+### Cost(From)
   Tipo:Decimal
-- Grading
+### Grading
   Tipo:List (integer)
   1|1
   2|2
   3|3
   4|4
   5|5
-- Slider
+### Slider
   Tipo: Image - Multiple
-- Itinerario
+### Itinerario
   Tipo: Long text
-- Included
+### Included
   Tipo: Long text
-- Not Included
+### Not Included
   Tipo: Long text
-- Recommendations
+### Recommendations
   Tipo: Long text
-- Map
+### Map
   Tipo: Long text
-- Gallery
+### Gallery
   Tipo: Image - Multiple
-- Contact
+### Contact
   Tipo: Node reference - Webform
-- Book Now
+### Book Now
   Tipo: Node Referece - Webform
 
 
