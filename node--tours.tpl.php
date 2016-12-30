@@ -76,10 +76,15 @@
     </div>
 </div>
 <?php else: ?>
-<div class="tours-teaser">
-  <h3 class="text-center"><a href="<?php print $node_url; ?>"><?php print $title; ?></a></h3>
-  <p class="text-center">
-      <a href="<?php print $node_url; ?>" class="btn btn-primary btn-more text-upper"><?php print t("VIEW MORE"); ?></a>
+<div class="tours-teaser text-center">
+    <?php print render($content['field_cost']); ?>
+    <?php print render($content['field_slider']); ?>
+    <h3><a href="<?php print $node_url; ?>"><?php print $title; ?></a></h3>
+    <?php print render($content['body']); ?>
+    <p>
+      <a href="<?php print $node_url; ?>" class="btn btn-primary btn-more text-upper">
+      <?php print t("VIEW MORE"); ?>
+      </a>
     </p>
 </div>
 <?php endif; ?>
