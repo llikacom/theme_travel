@@ -44,7 +44,7 @@ tipo:List (text)
   Tipo: Long text
 ### Gallery
   Tipo: Image - Multiple
-### Contact
+### Contact Us
   Tipo: Node reference - Webform
 ### Book Now
   Tipo: Node Referece - Webform
