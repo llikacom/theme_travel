@@ -32,7 +32,7 @@ tipo:List (text)
 
 ### Slider
   Tipo: Image - Multiple
-### Itinerario
+### Itinerary
   Tipo: Long text
 ### Included
   Tipo: Long text
