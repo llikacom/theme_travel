@@ -33,6 +33,7 @@ exclude[css][] = 'modules/system/system.theme.css'
 ; exclude[css][] = 'modules/block/block.css'
 
 ;scripts[] = js/bootstrap.min.js
+scripts[] = js/custom.js
 
 features[] = main_menu
 features[] = logo
