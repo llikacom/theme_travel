@@ -63,7 +63,21 @@ img{
     box-shadow: 0 5px 10px rgba(0,0,0,0.33);
 }
 .blog-teaser h2 {}
-.blog-teaser .field-name-field-image{}
+.blog-teaser .field-name-field-image {
+    overflow: hidden;
+}
+.blog-teaser .field-name-field-image img{
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+}
+.blog-teaser .field-name-field-image img:hover{
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2)
+}
 .blog-teaser .field-name-body{}
 .blog-teaser .btn-more {}
 /*
