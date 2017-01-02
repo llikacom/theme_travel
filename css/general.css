@@ -389,3 +389,13 @@ background: #0096d8;
     width:83%;
     }
 }
+/* Banderas */
+.language-switcher-locale-url {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.language-switcher-locale-url li {
+    float: left;
+    margin: 0 5px;
+}
