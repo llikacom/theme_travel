@@ -1,3 +1,4 @@
+<?php  print render($page['content']['metatags']); ?>
 - Insertar logo con enlace a HOME
 <?php if ($logo): ?>
     <a href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>" rel="home" id="logo">
