@@ -83,7 +83,7 @@
     <?php print render($content['body']); ?>
     <p>
       <a href="<?php print $node_url; ?>" class="btn btn-primary btn-more text-upper">
-      <?php print t("VIEW MORE"); ?>
+      <?php print t("View more"); ?>
       </a>
     </p>
 </div>
