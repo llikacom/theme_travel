@@ -30,6 +30,7 @@ img{
     margin: 0;
     background: transparent;
 }
+.flex-direction-nav a {line-height: 36px;}
 /* Gallery field  */
 .field-name-field-gallery .field-item img {
     width: 100%;
