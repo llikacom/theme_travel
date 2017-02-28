@@ -2,7 +2,9 @@ img{
     max-width:100%;
     height:auto;
 }
-
+.form-text {
+    max-width: 100%;
+}
 .form-submit {
     background: #6e2400;
     display: inline-block;
